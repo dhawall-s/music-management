@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Upload</title>
+</head>
+<body>
+    <h2>Upload Music</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="music_file">Choose music file:</label><br>
+        <input type="file" name="music_file" accept="audio/*" required><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
